@@ -59,7 +59,7 @@ p{
   font-weight: bold;
 }
 .banner-content p{
-  font-size: 1.5em;
+  font-size: 0.7em;
   font-family: sans-serif;
   font-style:bold;
   margin-top: 5px;
@@ -74,7 +74,7 @@ p{
   font-size: 1em;
   z-index: 1001;
   margin-right: 10px;
-  backdrop-filter: blur(10px); /* Blur effect */
+ backdrop-filter: blur(10px); /* Blur effect */
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth and faster transition */
 }
 .banner-content button:hover {

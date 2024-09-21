@@ -1,0 +1,73 @@
+
+nav{
+    display: flex;
+    width:100%;
+    z-index: 2000;
+
+
+}
+.pages {
+    position: fixed;           /* Fixes the nav bar to the viewport */
+    top: 0;                    /* Ensures the nav bar stays at the top */
+    left: 0;                   /* Aligns it to the left */
+    right: 0;                  /* Ensures it spans the full width */
+    list-style-type: none;      /* Removes bullet points */
+    margin: 0;                 /* Removes default margin */
+    padding: 0;                /* Removes default padding */
+    display: flex;             /* Flexbox to align items horizontally */
+    justify-content: flex-start;   /* Centers the nav items horizontally */
+    width: 100%;               /* Full-width navigation */
+    height: 4.5em;               /* Sets the height */
+    align-items: center;       /* Aligns nav items vertically */
+    background-color: #f8f9fa00; /* Optional: background color */
+    z-index: 1000;
+    margin-left: 160px;
+
+}
+
+.pages li {
+    margin-right: 20px;        /* Spacing between nav items */
+}
+
+.pages li:last-child {
+    margin-right: 0;           /* Removes the extra margin on the last item */
+}
+
+ul li{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgba(223, 223, 223, 0.699);
+    font-size: small;
+    
+}
+
+
+
+.logo{
+    width:75px;
+    position: fixed;
+    left:50px;
+    top:25px;  
+    z-index: 10;  
+}
+.avatar{
+    width:20px;
+    border-radius: 50%;
+    position: fixed;  /* Ensure the icon has a position set */
+    z-index: 10;  
+    right:40px;
+    top:37px;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgba(223, 223, 223, 0.699);
+    font-size: small;
+    transition: 0.5s color;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+

@@ -1,0 +1,22 @@
+.row{
+    margin-left: 20px;
+    color:aliceblue;
+}
+.posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    display:flex;
+    max-height: 200px;
+    padding: 10px;
+    
+}
+.row h2{
+    margin-left: 10px;
+    font-family: 'Baskervville SC';
+}
